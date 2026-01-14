@@ -1,0 +1,13 @@
+{
+  "name": "general-standards",
+  "description": "通用开发规范检查插件：安全最佳实践、代码质量和清洁代码原则",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Code",
+    "email": "noreply@anthropic.com"
+  },
+  "homepage": "https://github.com/lwmacct/260112-cc-plugins-study",
+  "repository": "https://github.com/lwmacct/260112-cc-plugins-study",
+  "license": "MIT",
+  "keywords": ["security", "code-quality", "clean-code", "best-practices"]
+}

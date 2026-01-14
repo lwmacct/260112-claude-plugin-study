@@ -1,0 +1,13 @@
+{
+  "name": "python-standards",
+  "description": "Python 开发规范检查插件：遵循 PEP 8 和 Python 最佳实践",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Code",
+    "email": "noreply@anthropic.com"
+  },
+  "homepage": "https://github.com/lwmacct/260112-cc-plugins-study",
+  "repository": "https://github.com/lwmacct/260112-cc-plugins-study",
+  "license": "MIT",
+  "keywords": ["python", "pep8", "standards", "code-review", "best-practices"]
+}

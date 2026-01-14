@@ -1,0 +1,87 @@
+{
+  "name": "cc-plugins-study",
+  "owner": {
+    "name": "Claude Code Study",
+    "email": "noreply@anthropic.com"
+  },
+  "metadata": {
+    "description": "开发规范检查插件市场：提供 Golang、Python 和通用开发规范的代码审查工具",
+    "version": "2.0.0"
+  },
+  "plugins": [
+    {
+      "name": "golang-standards",
+      "source": "./plugins/golang-standards",
+      "description": "Golang 开发规范检查：遵循 Go 官方惯用法和最佳实践，包括代码审查、静态分析和格式检查",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code",
+        "email": "noreply@anthropic.com"
+      },
+      "homepage": "https://github.com/lwmacct/260112-cc-plugins-study",
+      "repository": "https://github.com/lwmacct/260112-cc-plugins-study",
+      "license": "MIT",
+      "keywords": [
+        "golang",
+        "go",
+        "standards",
+        "code-review",
+        "best-practices",
+        "linting"
+      ],
+      "category": "development-tools",
+      "tags": ["go", "golang", "code-quality", "effective-go", "pep8"]
+    },
+    {
+      "name": "python-standards",
+      "source": "./plugins/python-standards",
+      "description": "Python 开发规范检查：遵循 PEP 8、PEP 257 和 Python 最佳实践，包括代码审查、类型提示和文档字符串检查",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code",
+        "email": "noreply@anthropic.com"
+      },
+      "homepage": "https://github.com/lwmacct/260112-cc-plugins-study",
+      "repository": "https://github.com/lwmacct/260112-cc-plugins-study",
+      "license": "MIT",
+      "keywords": [
+        "python",
+        "pep8",
+        "standards",
+        "code-review",
+        "best-practices",
+        "type-hints"
+      ],
+      "category": "development-tools",
+      "tags": [
+        "python",
+        "code-quality",
+        "linting",
+        "docstring",
+        "type-checking"
+      ]
+    },
+    {
+      "name": "general-standards",
+      "source": "./plugins/general-standards",
+      "description": "通用开发规范检查：涵盖安全最佳实践、代码质量和清洁代码原则，适用于所有编程语言",
+      "version": "1.0.0",
+      "author": {
+        "name": "Claude Code",
+        "email": "noreply@anthropic.com"
+      },
+      "homepage": "https://github.com/lwmacct/260112-cc-plugins-study",
+      "repository": "https://github.com/lwmacct/260112-cc-plugins-study",
+      "license": "MIT",
+      "keywords": [
+        "security",
+        "code-quality",
+        "clean-code",
+        "best-practices",
+        "owasp"
+      ],
+      "category": "development-tools",
+      "tags": ["security", "refactoring", "code-review", "clean-code", "solid"]
+    }
+  ]
+}

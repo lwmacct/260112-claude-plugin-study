@@ -1,0 +1,13 @@
+{
+  "name": "golang-standards",
+  "description": "Golang 开发规范检查插件：遵循 Go 官方惯用法和最佳实践",
+  "version": "1.0.0",
+  "author": {
+    "name": "Claude Code",
+    "email": "noreply@anthropic.com"
+  },
+  "homepage": "https://github.com/lwmacct/260112-cc-plugins-study",
+  "repository": "https://github.com/lwmacct/260112-cc-plugins-study",
+  "license": "MIT",
+  "keywords": ["golang", "go", "standards", "code-review", "best-practices"]
+}
