@@ -11,7 +11,12 @@
   "plugins": [
     {
       "name": "golang-standards",
-      "source": "./plugins/golang-standards",
+      "source": {
+        "source": "github",
+        "repo": "lwmacct/260112-cc-plugins-study",
+        "ref": "main",
+        "path": "plugins/golang-standards"
+      },
       "description": "Golang 开发规范检查：遵循 Go 官方惯用法和最佳实践，包括代码审查、静态分析和格式检查",
       "version": "1.0.0",
       "author": {
@@ -34,7 +39,12 @@
     },
     {
       "name": "python-standards",
-      "source": "./plugins/python-standards",
+      "source": {
+        "source": "github",
+        "repo": "lwmacct/260112-cc-plugins-study",
+        "ref": "main",
+        "path": "plugins/python-standards"
+      },
       "description": "Python 开发规范检查：遵循 PEP 8、PEP 257 和 Python 最佳实践，包括代码审查、类型提示和文档字符串检查",
       "version": "1.0.0",
       "author": {
@@ -63,7 +73,12 @@
     },
     {
       "name": "general-standards",
-      "source": "./plugins/general-standards",
+      "source": {
+        "source": "github",
+        "repo": "lwmacct/260112-cc-plugins-study",
+        "ref": "main",
+        "path": "plugins/general-standards"
+      },
       "description": "通用开发规范检查：涵盖安全最佳实践、代码质量和清洁代码原则，适用于所有编程语言",
       "version": "1.0.0",
       "author": {
